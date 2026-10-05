@@ -4,9 +4,9 @@ import Hero from "@/components/sections/Hero";
 import Roles from "@/components/sections/Roles";
 import Skills from "@/components/sections/Skills";
 import Projects from "@/components/sections/Projects";
-import Experience from "@/components/sections/Experience";
+import Experiences from "@/components/sections/Experiences";
 
-// ลำดับ section ในหน้าเว็บ — สลับ/เพิ่ม/ลบได้ที่นี่
+// Section Order
 export default function Home() {
   return (
     <>
@@ -16,7 +16,7 @@ export default function Home() {
         <Roles />
         <Skills />
         <Projects />
-        <Experience />
+        <Experiences />
       </main>
       <Footer />
     </>

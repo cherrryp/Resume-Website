@@ -1,4 +1,5 @@
 import { Sarabun, Source_Serif_4 } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { profile } from "@/data/profile";
 
@@ -13,6 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="th" className={`${sans.variable} ${serif.variable}`}>
+      <head>
+        {process.env.NODE_ENV === "development" && (
+          <Script
+            src="//unpkg.com/react-grab/dist/index.global.js"
+            crossOrigin="anonymous"
+            strategy="beforeInteractive"
+          />
+        )}
+      </head>
       <body>{children}</body>
     </html>
   );
