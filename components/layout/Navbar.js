@@ -4,7 +4,7 @@ const links = [
   ["#roles", "Roles"],
   ["#skills", "Skills"],
   ["#projects", "Projects"],
-  ["#experience", "Experience"],
+  ["#experiences", "Experience(s)"],
   ["#contact", "Contact"],
 ];
 

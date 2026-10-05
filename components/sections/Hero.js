@@ -10,8 +10,8 @@ export default function Hero() {
           <p className="headline">{p.headline}</p>
           <p className="intro">{p.intro}</p>
           <div className="actions">
-            <a className="btn primary" href="#projects">ดูผลงาน</a>
-            <a className="btn ghost" href={p.resumePdf} download>ดาวน์โหลด Resume</a>
+            <a className="btn primary" href="#projects">Project</a>
+            <a className="btn ghost" href={p.resumePdf} download>Download Resume</a>
           </div>
         </div>
         <aside className="panel" aria-label="ข้อมูลโดยย่อ">

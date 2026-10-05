@@ -1,14 +1,14 @@
 import SectionHeading from "@/components/ui/SectionHeading";
-import { experience } from "@/data/experience";
+import { experiences } from "@/data/experiences";
 import { education as edu } from "@/data/profile";
 
-export default function Experience() {
+export default function Experiences() {
   return (
-    <section id="experience" className="sec alt">
+    <section id="experiences" className="sec alt">
       <div className="wrap two">
         <div>
-          <SectionHeading eyebrow="Experience" title="ประสบการณ์" />
-          {experience.map((e) => (
+          <SectionHeading eyebrow="Experiences" title="ประสบการณ์" />
+          {experiences.map((e) => (
             <article className="timeline" key={e.role}>
               <h3>{e.role}</h3>
               <p className="meta">{e.org} · {e.period}</p>
