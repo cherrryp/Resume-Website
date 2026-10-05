@@ -1,0 +1,7 @@
+/* nav */
+.nav { position: sticky; top: 0; z-index: 10; background: rgba(14, 26, 43, .92); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,.08); }
+.nav-in { display: flex; justify-content: space-between; align-items: center; height: 60px; }
+.brand { color: #fff; text-decoration: none; font-family: var(--serif); font-weight: 600; font-size: 1.1rem; }
+.nav nav { display: flex; gap: 1.5rem; }
+.nav nav a { color: #c5d0e0; text-decoration: none; font-size: .92rem; }
+.nav nav a:hover { color: #fff; }

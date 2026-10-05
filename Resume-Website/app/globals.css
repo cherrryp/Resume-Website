@@ -1,0 +1,9 @@
+/* รวมไฟล์สไตล์ทั้งหมด — แก้สีและฟอนต์ที่ tokens.css */
+@import "./styles/tokens.css";
+@import "./styles/base.css";
+@import "./styles/navbar.css";
+@import "./styles/hero.css";
+@import "./styles/sections.css";
+@import "./styles/projects.css";
+@import "./styles/contact.css";
+@import "./styles/responsive.css";

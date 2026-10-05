@@ -1,0 +1,15 @@
+/* projects */
+.projects { display: grid; gap: 1.25rem; }
+.project { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 1.75rem; }
+.project header { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; flex-wrap: wrap; }
+.year { color: var(--muted); font-size: .9rem; }
+.chips { display: flex; gap: .4rem; margin: .6rem 0; flex-wrap: wrap; }
+.chips span { font-size: .75rem; font-weight: 600; padding: .1rem .65rem; border-radius: 999px; background: #e3ecfa; color: var(--accent); }
+.stack { margin: 0 0 .75rem; color: var(--muted); font-size: .9rem; }
+.list { margin: 0; padding-left: 1.2rem; max-width: 72ch; }
+.list li { margin-bottom: .3rem; }
+
+/* experience */
+.two { display: grid; grid-template-columns: 1.4fr 1fr; gap: 3.5rem; }
+.timeline { border-left: 2px solid var(--accent); padding-left: 1.5rem; }
+.meta { margin: .2rem 0 .75rem; color: var(--muted); font-size: .92rem; }

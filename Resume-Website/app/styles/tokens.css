@@ -1,0 +1,13 @@
+:root {
+  --navy: #0e1a2b;
+  --navy-2: #16263d;
+  --bg: #f7f8fa;
+  --alt: #eef1f5;
+  --card: #ffffff;
+  --ink: #18212f;
+  --muted: #5a6577;
+  --line: #dde2ea;
+  --accent: #1f4b8f;
+  --teal: #4fd1c5;
+  --serif: var(--font-serif), var(--font-sans), Georgia, serif;
+}

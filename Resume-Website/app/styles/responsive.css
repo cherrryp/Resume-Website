@@ -1,0 +1,14 @@
+@media (max-width: 820px) {
+  .hero { padding: 3.5rem 0 4rem; }
+  .hero-in, .two { grid-template-columns: 1fr; gap: 2.5rem; }
+  .sec { padding: 3.5rem 0; }
+  .nav nav { gap: .9rem; }
+  .nav nav a { font-size: .82rem; }
+  .brand { display: none; }
+  .nav-in { justify-content: center; }
+}
+@media print {
+  .nav, .actions { display: none; }
+  .hero, .contact { background: #fff; color: #000; }
+  .headline, .intro, .contact p { color: #333; }
+}

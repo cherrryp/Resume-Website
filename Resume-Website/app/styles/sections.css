@@ -1,0 +1,17 @@
+/* sections */
+.sec { padding: 5rem 0; scroll-margin-top: 60px; }
+.sec.alt { background: var(--alt); }
+.eyebrow { margin: 0 0 .5rem; font-size: .8rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+.sec h2 { font-size: 2rem; margin-bottom: 2.25rem; }
+h3 { font-size: 1.15rem; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+.card { background: var(--card); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 12px; padding: 1.5rem; transition: box-shadow .2s, transform .2s; }
+.card:hover { box-shadow: 0 12px 28px rgba(14,26,43,.08); transform: translateY(-3px); }
+.card h3 { margin-bottom: .5rem; }
+.card p { margin: 0 0 1rem; color: var(--muted); font-size: .95rem; }
+.card .proof { margin: 1rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--ink); }
+.tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .45rem; }
+.tags li { padding: .15rem .75rem; border-radius: 6px; background: var(--alt); border: 1px solid var(--line); font-size: .85rem; }
+.alt .tags li { background: var(--card); }
+.skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem 3rem; }
+.skills h3 { font-size: 1rem; margin-bottom: .6rem; }
