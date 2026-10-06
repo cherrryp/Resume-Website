@@ -10,8 +10,10 @@ export default function Skills() {
         <div className="skills">
           {skills.map((s) => (
             <div key={s.group}>
-              <h3>{s.group}</h3>
-              <TagList items={s.items} />
+              <article className="card" key={s.title}>
+                <h3>{s.group}</h3>
+                <TagList items={s.items} />
+              </article>
             </div>
           ))}
         </div>
